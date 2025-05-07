@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cf21f1c0-1e54-4c38-8bac-d73e5a0a0054" name="변경" comment="📁 add 04-17" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;yurissssss&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/yurissssss/KB-IT-s-Your-life.git&quot;,
+    &quot;accountId&quot;: &quot;59fdae7e-5a88-4ed3-a9e8-75a9acf93483&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2vnnnoxABvs9FCQOGOFrS7kDccd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/yuri/Desktop/IT's Your life/fullstack/03 이것이 자바다/03_클래스/Basic",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/yuri/Desktop/IT's Your life/fullstack/03 이것이 자바다/03_클래스/Basic/src/Main.java",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true",
+    "애플리케이션.CalculatorExample.executor": "Run",
+    "애플리케이션.CarExample.executor": "Run",
+    "애플리케이션.ComputerExample.executor": "Run",
+    "애플리케이션.ch06.sec09.CarExample.executor": "Run"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="CarExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch06.sec08.exam03.CarExample" />
+      <module name="02_java(기본)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch06.sec08.exam03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.CarExample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="cf21f1c0-1e54-4c38-8bac-d73e5a0a0054" name="변경" comment="" />
+      <created>1744789874461</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744789874461</updated>
+      <workItem from="1744789875540" duration="210000" />
+      <workItem from="1744792756297" duration="65000" />
+      <workItem from="1744794270098" duration="470000" />
+      <workItem from="1744875022065" duration="634000" />
+      <workItem from="1744890742640" duration="944000" />
+      <workItem from="1744891700860" duration="255000" />
+      <workItem from="1744891970569" duration="1165000" />
+      <workItem from="1744893147469" duration="767000" />
+      <workItem from="1744893941632" duration="2802000" />
+    </task>
+    <task id="LOCAL-00001" summary="📁 add : Calculator.java 추가 04-17">
+      <option name="closed" value="true" />
+      <created>1744900388890</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744900388890</updated>
+    </task>
+    <task id="LOCAL-00002" summary="📁 add : CalculatorExample.java 추가 04-17">
+      <option name="closed" value="true" />
+      <created>1744900400514</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744900400514</updated>
+    </task>
+    <task id="LOCAL-00003" summary="📁 add : CalculatorExample.java 추가 04-17">
+      <option name="closed" value="true" />
+      <created>1744900417274</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744900417274</updated>
+    </task>
+    <task id="LOCAL-00004" summary="📁 add 04-17">
+      <option name="closed" value="true" />
+      <created>1744900482289</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744900482289</updated>
+    </task>
+    <task id="LOCAL-00005" summary="📁 add 04-17">
+      <option name="closed" value="true" />
+      <created>1744900493387</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744900493387</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../.." />
+    </ignored-roots>
+    <MESSAGE value=" add : Calculator.java 추가 04-17" />
+    <MESSAGE value=" add : CalculatorExample.java 추가 04-17" />
+    <MESSAGE value=" add 04-17" />
+    <option name="LAST_COMMIT_MESSAGE" value=" add 04-17" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/study/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

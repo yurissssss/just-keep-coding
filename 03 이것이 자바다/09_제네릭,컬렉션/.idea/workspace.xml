@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2472f0f2-ea2b-46dc-80c6-718ad4baee81" name="Changes" comment="📁 add 05-04" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;yurissssss&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/yurissssss/just-keep-coding.git",
+    "accountId": "2ca6ff34-df7a-4f88-9db6-01ae0a663a0d"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2wOKbXP4pAfHVLAHoCGzJGtGDda" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GenericExample.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/yuri/Desktop/IT's Your life/just-keep-coding/03 이것이 자바다/09_제네릭,컬렉션",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/yuri/Desktop/IT's Your life/fullstack/03 이것이 자바다/09_제네릭,컬렉션/Advanced/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2472f0f2-ea2b-46dc-80c6-718ad4baee81" name="Changes" comment="" />
+      <created>1745907251832</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745907251832</updated>
+      <workItem from="1745907252977" duration="9408000" />
+      <workItem from="1746000676738" duration="14000" />
+      <workItem from="1746354895237" duration="49000" />
+      <workItem from="1746355485023" duration="116000" />
+      <workItem from="1746355960608" duration="491000" />
+      <workItem from="1746357257027" duration="205000" />
+      <workItem from="1746518625945" duration="14000" />
+      <workItem from="1746518783720" duration="4000" />
+      <workItem from="1746625797327" duration="713000" />
+    </task>
+    <task id="LOCAL-00001" summary="📁add: Box.java 04-29">
+      <option name="closed" value="true" />
+      <created>1745910695680</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745910695680</updated>
+    </task>
+    <task id="LOCAL-00002" summary=".">
+      <option name="closed" value="true" />
+      <created>1745910701992</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745910701992</updated>
+    </task>
+    <task id="LOCAL-00003" summary="📁 add : GenericExample.java 04-29">
+      <option name="closed" value="true" />
+      <created>1745910998100</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1745910998100</updated>
+    </task>
+    <task id="LOCAL-00004" summary="✏️ update : GenericExample.java 04-29">
+      <option name="closed" value="true" />
+      <created>1745911070968</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1745911070968</updated>
+    </task>
+    <task id="LOCAL-00005" summary="📁 add : Product.java 04-29">
+      <option name="closed" value="true" />
+      <created>1745912548117</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1745912548117</updated>
+    </task>
+    <task id="LOCAL-00006" summary="📁 add : Car.java 04-29">
+      <option name="closed" value="true" />
+      <created>1745914302467</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1745914302467</updated>
+    </task>
+    <task id="LOCAL-00007" summary="📁 add : GenericExample.java 04-29">
+      <option name="closed" value="true" />
+      <created>1745914313168</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1745914313168</updated>
+    </task>
+    <task id="LOCAL-00008" summary="📁 add : Tv.java 04-29">
+      <option name="closed" value="true" />
+      <created>1745914318433</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1745914318433</updated>
+    </task>
+    <task id="LOCAL-00009" summary="📁 add : Car.java 04-29">
+      <option name="closed" value="true" />
+      <created>1745916735267</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1745916735267</updated>
+    </task>
+    <task id="LOCAL-00010" summary="📁 add : CarAgency.java 04-29">
+      <option name="closed" value="true" />
+      <created>1745916740595</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1745916740595</updated>
+    </task>
+    <task id="LOCAL-00011" summary="📁 add : GenericExample.java 04-29">
+      <option name="closed" value="true" />
+      <created>1745916748361</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1745916748361</updated>
+    </task>
+    <task id="LOCAL-00012" summary="📁 add : Home.java 04-29">
+      <option name="closed" value="true" />
+      <created>1745916760782</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1745916760782</updated>
+    </task>
+    <task id="LOCAL-00013" summary="📁 add : HomeAgency.java 04-29">
+      <option name="closed" value="true" />
+      <created>1745916768273</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1745916768273</updated>
+    </task>
+    <task id="LOCAL-00014" summary="📁 add : Rentable.java 04-29">
+      <option name="closed" value="true" />
+      <created>1745916777553</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1745916777553</updated>
+    </task>
+    <task id="LOCAL-00015" summary="📁 add : Box.java 05-04">
+      <option name="closed" value="true" />
+      <created>1746354915337</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1746354915337</updated>
+    </task>
+    <task id="LOCAL-00016" summary="📁 add : Box.java 05-04">
+      <option name="closed" value="true" />
+      <created>1746354916461</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1746354916461</updated>
+    </task>
+    <task id="LOCAL-00017" summary="📁 add : Box.java 05-04">
+      <option name="closed" value="true" />
+      <created>1746354916636</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1746354916636</updated>
+    </task>
+    <task id="LOCAL-00018" summary="📁 add : Box.java 05-04">
+      <option name="closed" value="true" />
+      <created>1746354916845</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1746354916845</updated>
+    </task>
+    <task id="LOCAL-00019" summary="📁 add : Box.java 05-04">
+      <option name="closed" value="true" />
+      <created>1746354917016</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1746354917016</updated>
+    </task>
+    <task id="LOCAL-00020" summary=".">
+      <option name="closed" value="true" />
+      <created>1746355552853</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1746355552853</updated>
+    </task>
+    <task id="LOCAL-00021" summary="📁 add 05-04">
+      <option name="closed" value="true" />
+      <created>1746355996880</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1746355996880</updated>
+    </task>
+    <task id="LOCAL-00022" summary="📁 add 05-04">
+      <option name="closed" value="true" />
+      <created>1746356002114</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1746356002114</updated>
+    </task>
+    <task id="LOCAL-00023" summary="📁 add 05-04">
+      <option name="closed" value="true" />
+      <created>1746356006344</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1746356006344</updated>
+    </task>
+    <task id="LOCAL-00024" summary="📁 add 05-04">
+      <option name="closed" value="true" />
+      <created>1746356123225</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1746356123225</updated>
+    </task>
+    <task id="LOCAL-00025" summary="📁 add 05-04">
+      <option name="closed" value="true" />
+      <created>1746356229050</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1746356229050</updated>
+    </task>
+    <task id="LOCAL-00026" summary="📁 add 05-04">
+      <option name="closed" value="true" />
+      <created>1746356379986</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1746356379986</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/Advanced" />
+    </ignored-roots>
+    <MESSAGE value="add: Box.java 04-29" />
+    <MESSAGE value="✏️ update : GenericExample.java 04-29" />
+    <MESSAGE value=" add : Product.java 04-29" />
+    <MESSAGE value=" add : Tv.java 04-29" />
+    <MESSAGE value=" add : Car.java 04-29" />
+    <MESSAGE value=" add : CarAgency.java 04-29" />
+    <MESSAGE value=" add : GenericExample.java 04-29" />
+    <MESSAGE value=" add : Home.java 04-29" />
+    <MESSAGE value=" add : HomeAgency.java 04-29" />
+    <MESSAGE value=" add : Rentable.java 04-29" />
+    <MESSAGE value=" add : Box.java 05-04" />
+    <MESSAGE value="." />
+    <MESSAGE value=" add 05-04" />
+    <option name="LAST_COMMIT_MESSAGE" value=" add 05-04" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Basic/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Advanced/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
