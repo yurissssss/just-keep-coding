@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="node">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/02 웹 인터페이스 구축을 위한 Vue/node/01_node(심화).zip!/" />
+      <root url="jar://$PROJECT_DIR$/02 웹 인터페이스 구축을 위한 Vue/node/01_node(기본).zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

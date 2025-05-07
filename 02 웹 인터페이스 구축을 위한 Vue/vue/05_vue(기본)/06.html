@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>06</title>
+    <style>
+      .btnColor {
+        background-color: aqua;
+        color: black;
+      }
+      .btnAlign {
+        text-align: center;
+        width: 120px;
+      }
+      .btnBorder {
+        border: khaki dashed 1px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <!-- 'value="true"' : 'btnColor'의 값은 boolean(X), 문자열(O) -->
+      <!-- 조건문으로 사용한다면 'btnColor === "true"'로 작성해야 함 -->
+      <!-- 'value'사용하는 경우 - 체크된 항목들을 모아 배열 생성 -->
+      <!-- 체크 O -> 'btnColor'에 'true'라는 "문자열"이 들어감 -->
+      <!-- 체크 X -> 'btnColor'에 'false'라는 "boolean"값 들어감 -->
+      <!-- false(boolean)가 아니면 다 'true'로 인식 -->
+      <!-- 'false'로 인식 - false, 0, -0, 0n, "",'',  null, undefined, NaN -->
+      <input type="checkbox" v-model="btnColor" value="true" />
+      색상<br />
+      <input type="checkbox" v-model="btnAlign" value="true" />
+      정렬, 크기<br />
+      <input type="checkbox" v-model="btnBorder" value="true" />
+      테두리<br />
+      <button
+        :class="{btnColor: btnColor, btnAlign: btnAlign, btnBorder: btnBorder}"
+      >
+        버튼
+      </button>
+    </div>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script type="text/javascript">
+      let vm = Vue.createApp({
+        name: 'App',
+        data() {
+          return {
+            btnColor: false,
+            btnAlign: false,
+            btnBorder: false,
+          };
+        },
+      }).mount('#app');
+    </script>
+  </body>
+</html>

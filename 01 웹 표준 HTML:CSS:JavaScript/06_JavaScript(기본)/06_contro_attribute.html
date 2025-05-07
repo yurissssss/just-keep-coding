@@ -1,0 +1,25 @@
+<!-- 사이트 이용 -->
+<!-- p362 -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DOM Basic</title>
+    <script>
+      // 이벤트를 연결합니다.
+      window.onload = function () {
+        // 변수를 선언합니다.
+        let image = document.getElementById('image');
+
+        // 속성을 변경합니다.
+        image.src =
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUBVM2h_DctyYpiaCsvIuVI2euFB0k6dm61A&s';
+        image.width = 300;
+        image.height = 200;
+      };
+    </script>
+  </head>
+  <body>
+    <img id="image" />
+  </body>
+</html>

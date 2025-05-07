@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="vue">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/02 웹 인터페이스 구축을 위한 Vue/vue/03_vue(기본).zip!/" />
+      <root url="jar://$PROJECT_DIR$/02 웹 인터페이스 구축을 위한 Vue/vue/02_vue(심화).zip!/" />
+      <root url="jar://$PROJECT_DIR$/02 웹 인터페이스 구축을 위한 Vue/vue/01_vue(심화).zip!/" />
+      <root url="jar://$PROJECT_DIR$/02 웹 인터페이스 구축을 위한 Vue/vue/05_vue(심화).zip!/" />
+      <root url="jar://$PROJECT_DIR$/02 웹 인터페이스 구축을 위한 Vue/vue/01_vue(기본).zip!/" />
+      <root url="jar://$PROJECT_DIR$/02 웹 인터페이스 구축을 위한 Vue/vue/03_vue(심화).zip!/" />
+      <root url="jar://$PROJECT_DIR$/02 웹 인터페이스 구축을 위한 Vue/vue/02_vue(기본).zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

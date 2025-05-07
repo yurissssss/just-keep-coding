@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>condition_ifelseif</title>
+    <script>
+      // 현재 시간 측정
+      let date = new Date();
+      let time = date.getHours();
+
+      let group;
+
+      if (time < 5) group = 'sleep';
+      else if (time < 7) group = 'prepare';
+      else if (time < 9) group = 'commute';
+      else if (time < 12) group = 'lazy';
+      else if (time < 14) group = 'meal';
+      else group = 'task';
+
+      switch (group) {
+        case 'sleep':
+          alert('남을 자렴...');
+          break;
+        case 'prepare':
+          alert('준비');
+          break;
+        case 'commute':
+          alert('출근');
+          break;
+        case 'lazy':
+          alert('빈둥 빈둥');
+          break;
+        case 'meal':
+          alert('식사');
+          break;
+        case 'task':
+          alert('여러 가지 업무를 수행합니다');
+          break;
+      }
+    </script>
+  </head>
+  <body></body>
+</html>

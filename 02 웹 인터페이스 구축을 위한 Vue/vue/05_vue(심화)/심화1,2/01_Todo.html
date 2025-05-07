@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>01_Todo</title>
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+      .title {
+        text-align: center;
+        font-weight: bold;
+        font-size: 20pt;
+      }
+      .todo-done {
+        text-decoration: line-through;
+      }
+      .container {
+        padding: 10px;
+      }
+      .panel-borderless {
+        border: 0;
+        box-shadow: none;
+      }
+      .pointer {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app" class="container">
+      <!-- bootstrap -->
+      <div class="card card-body bg-light">
+        <div class="title">:: Todolist App</div>
+      </div>
+      <!-- bootstrap -->
+      <div class="card card-default card-borderless">
+        <div class="card-body">
+          <!-- 새 할 일 추가 -->
+          <div class="row mb-3">
+            <div class="col">
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="msg"
+                  placeholder="할 일을 여기에 입력!"
+                />
+                <!-- '추가'버튼 -->
+                <!-- 'addTodo'함수 실행 -->
+                <!-- bootstrap -->
+                <span class="btn btn-primary input-group-addon">추가</span>
+              </div>
+            </div>
+          </div>
+          <!-- 할 일 목록 -->
+          <div class="row">
+            <div class="col">
+              <ul class="list-group">
+                <!-- 완료된 항목 -->
+                <!-- bootstrap -->
+                <li class="list-group-item list-group-item-success">
+                  <span class="todo-done pointer">할일1 (완료)</span>
+                  <!-- bootstrap -->
+                  <span class="float-end badge bg-secondary pointer">삭제</span>
+                </li>
+                <!-- 미완료된 항목 -->
+                <li class="list-group-item">
+                  <span class="pointer">할일2</span>
+                  <!-- bootstrap -->
+                  <span class="float-end badge bg-secondary pointer">삭제</span>
+                </li>
+                <!-- 미완료된 항목 -->
+                <li class="list-group-item">
+                  <span class="pointer">할일3</span>
+                  <!-- bootstrap -->
+                  <!-- '삭제'버튼 -->
+                  <!-- 'deleteTodo'함수 실행 -->
+                  <span class="float-end badge bg-secondary pointer">삭제</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script type="text/javascript">
+      // 작성시간으로 id 지정
+      let ts = new Date().getTime();
+
+      let vm = Vue.createApp({
+        name: 'App',
+        data() {
+          return {
+            // todo: '',
+            // todolist: [
+            //   { id: ts, todo: '자전거 타기', completed: false },
+            //   { id: ts + 1, todo: '딸과 공원 산책', completed: true },
+            //   { id: ts + 2, todo: '일요일 애견 카페', completed: false },
+            //   { id: ts + 3, todo: 'Vue 원고 집필', completed: false },
+            // ],
+          };
+        },
+        methods: {
+          addTodo() {},
+          deleteTodo(id) {},
+          toggleCompleted(id) {},
+        },
+      }).mount('#app');
+    </script>
+  </body>
+</html>

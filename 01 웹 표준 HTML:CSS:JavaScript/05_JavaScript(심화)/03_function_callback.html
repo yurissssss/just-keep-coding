@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>function_callback</title>
+    <script>
+      // 함수 선언
+      function callTimes(callback) {
+        // 입력한 'num'만큼 반복
+        for (let i = 0; i < 10; i++) {
+          // 매개변수로 전달된 함수 호출 -> fun()
+          callback();
+        }
+      }
+
+      // 변수 선언
+      let fun = function () {
+        alert('함수호출');
+      };
+
+      // 함수 호출
+      callTimes(fun);
+    </script>
+  </head>
+  <body></body>
+</html>

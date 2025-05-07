@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pattern1</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        /* '#menu' + '#section' */
+        width: 960px;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+      #menu {
+        width: 260px;
+        float: left;
+      }
+      #section {
+        width: 700px;
+        /* '#menu'와 '#section' 사이에 공백 X -> left/right 둘 다 가능 */
+        float: left;
+      }
+      li {
+        list-style: none;
+      }
+
+      /* 스마트폰 사이즈 */
+      /* 다 수직으로 나열되도록 변경 */
+      @media screen and (max-width: 767px) {
+        body {
+          width: auto;
+        }
+        #menu {
+          width: auto;
+          float: none;
+        }
+        #section {
+          width: auto;
+          float: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="menu">
+      <ul>
+        <li>메뉴A</li>
+        <li>메뉴B</li>
+        <li>메뉴C</li>
+      </ul>
+    </div>
+    <div id="section">
+      <h1>Lorem ipsum</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+        consequuntur. Inventore deleniti officiis at libero blanditiis
+        voluptatum eum maxime, eius perferendis cumque totam excepturi officia
+        nesciunt velit minima, temporibus nam! Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Dolore, illum ullam sit repellendus
+        debitis laborum ratione rerum error, labore, saepe doloribus aperiam vel
+        quasi facilis totam voluptas eaque deleniti. Odit! Lorem ipsum dolor,
+        sit amet consectetur adipisicing elit. Quia quo, quisquam accusantium
+        explicabo laudantium dolorum perferendis porro ullam. Minus facere animi
+        quidem pariatur tempore dolorem excepturi molestias ab quisquam ducimus!
+      </p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dom Basic</title>
+    <script>
+      // 이벤트 연결
+      window.onload = function () {
+        //  속성 지정
+        let btn = document.getElementById('btn');
+        let name = document.getElementById('name');
+        // 이벤트 연결
+        btn.onclick = function () {
+          // 입력받은 값을 바꿔줘야 하므로 버튼 클릭 후에 name에 .value 붙여줘야 함
+          console.log(name.value);
+        };
+      };
+    </script>
+  </head>
+  <body>
+    <form>
+      <label for="name" 이름:></label>
+      <input id="name" name="name" type="text" size="30" />
+      <input id="btn" type="button" value="전송" />
+    </form>
+  </body>
+</html>

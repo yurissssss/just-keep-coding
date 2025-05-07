@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>position_absolute</title>
+    <style>
+      .box {
+        /* absolute -> body 기준으로 */
+        position: absolute;
+        width: 100px;
+        height: 100px;
+      }
+      /* .box라는 class를 갖는 태그들 중 첫번째 */
+      .box:nth-of-type(1) {
+        background-color: red;
+      }
+      .box:nth-of-type(2) {
+        background-color: green;
+        left: 50px;
+        top: 50px;
+      }
+      .box:nth-of-type(3) {
+        background-color: blue;
+        left: 100px;
+        top: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </body>
+</html>

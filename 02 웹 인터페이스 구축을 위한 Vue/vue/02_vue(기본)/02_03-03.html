@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>02_03-03</title>
+  </head>
+  <body>
+    <div id="app">
+      <input type="text" :value="message" />
+      <br />
+      <img :src="imagePath" alt="사진" />
+    </div>
+    <script type="text/javascript" src="https://unpkg.com/vue"></script>
+    <script type="text/javascript">
+      var vm = Vue.createApp({
+        name: 'App',
+        data() {
+          return {
+            message: 'v-bind 디렉티브',
+            imagePath: 'https://contactsvc.bmaster.kro.kr/photos/18.jpg',
+          };
+        },
+      }).mount('#app');
+    </script>
+  </body>
+</html>

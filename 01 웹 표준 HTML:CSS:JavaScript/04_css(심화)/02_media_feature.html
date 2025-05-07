@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>media_feature</title>
+    <style>
+      /* width가 767px 이하라면 */
+      @media screen and (max-width: 767px) {
+        body {
+          background-color: red;
+        }
+      }
+      /* width가 768px 이상, 959 이하라면 */
+      @media screen and (min-width: 768px) and (max-width: 959px) {
+        body {
+          background-color: green;
+        }
+      }
+      /* width가 960px 이상이라면 */
+      @media screen and (min-width: 960px) {
+        body {
+          background-color: blue;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Lorem ipsum dolor sit amet</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+      architecto excepturi, doloremque corrupti cupiditate dolore voluptates,
+      soluta obcaecati voluptatibus id dolor nihil quos. Reiciendis, totam?
+      Ipsam amet fugit exercitationem perferendis!
+    </p>
+  </body>
+</html>

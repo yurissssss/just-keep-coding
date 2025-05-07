@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ellipsis</title>
+    <style>
+      /* block 요소는 한 칸 다 쓰므로 미리 기준 정해주기 */
+      h1,
+      p {
+        width: 300px;
+      }
+
+      .ellipsis {
+        /* white-space : 공백 문자 처리하는 법 (줄바꿈 여부) */
+        /* nowrap -> 공백 X */
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="ellipsis">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </h1>
+    <p class="ellipsis">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </p>
+  </body>
+</html>

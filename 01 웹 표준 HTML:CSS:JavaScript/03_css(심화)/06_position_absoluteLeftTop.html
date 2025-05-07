@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>position_absoluteLeftTop</title>
+  </head>
+  <style>
+    .box {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+    }
+    .box:nth-of-type(1) {
+      background-color: red;
+      left: 10px;
+      top: 10px;
+      /* 제일 위에 부유하도록 가장 큰 z-index 값 부여 */
+      z-index: 100;
+    }
+    .box:nth-of-type(2) {
+      background-color: green;
+      left: 50px;
+      top: 50px;
+      z-index: 50;
+    }
+    .box:nth-of-type(3) {
+      background-color: blue;
+      left: 100px;
+      top: 100px;
+    }
+  </style>
+  <body>
+    <h1>Lorem ipsum dolor amet</h1>
+    <!-- 'h1 태그' 다음에 위치 -->
+    <!-- '.box'의 부모 -->
+    <!-- 원래는 '.box'의 위치 기준이 됨 -->
+    <div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+    <h1>Lorem ipsum dolor amet</h1>
+  </body>
+</html>

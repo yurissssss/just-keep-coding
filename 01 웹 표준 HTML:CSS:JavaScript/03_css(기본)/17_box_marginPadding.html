@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>box_marginPadding</title>
+    <style>
+      div {
+        background-color: red;
+        /* 총 너비는 220 = 100 + 30*2 + 20*2 + 10*2  */
+        width: 100px;
+        height: 100px;
+        /* padding + width -> red */
+        padding: 30px;
+        /* margin은 border 밖의 영역 */
+        margin: 10px;
+        /* border: 20px solid black; */
+        border-width: 20px;
+        border-style: solid;
+        border-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+  </body>
+</html>

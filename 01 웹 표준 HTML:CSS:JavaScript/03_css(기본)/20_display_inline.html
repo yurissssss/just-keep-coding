@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>display_inline</title>
+    <style>
+      #box {
+        /* float: left; - 쓰는 순간 다른 애들이 영향을 받으므로 (다 떠버럼) 사용하지 말자 */
+        /* span은 원래 inline이라 안 바꿔줌 */
+        display: inline;
+        /* inline은 너비, 높이 조정 X */
+        /* 하고 싶다면 display: inline-block; */
+        width: 300px;
+        height: 500px;
+        background-color: skyblue;
+      }
+    </style>
+  </head>
+  <body>
+    <span>더미 객체</span>
+    <div id="box">대상 객체</div>
+    <span>더미 객체</span>
+  </body>
+</html>

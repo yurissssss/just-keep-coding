@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fixedBar</title>
+    <style>
+      .top_bar {
+        /* viewport 기준으로 */
+        position: fixed;
+        background-color: red;
+        height: 50px;
+        left: 0;
+        top: 0;
+        right: 0;
+      }
+      .left_bar {
+        /* viewport 기준으로 */
+        position: fixed;
+        background-color: blue;
+        width: 50px;
+        left: 0;
+        /* .top_bar 아래쪽에 위치하도록 */
+        top: 50px;
+        bottom: 0;
+      }
+      .container {
+        /* .top_bar, .left_bar 안쪽에 위치하도록 */
+        margin-top: 50px;
+        margin-left: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top_bar"></div>
+    <div class="left_bar"></div>
+    <div class="container">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+        quis doloremque similique iusto quae velit, a praesentium dolores nam
+        sit quam, molestias cum beatae saepe illo eius sunt fugiat quas. Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Iusto sint molestiae
+        facere natus voluptas, voluptatem labore eius aliquid ratione impedit
+        voluptates nisi! Nemo sit iure, voluptas illum deleniti nihil sequi?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere
+        dolor suscipit quia temporibus aliquam veritatis cupiditate, assumenda
+        cum dolorem officiis nisi dolores corporis eaque? Distinctio asperiores
+        libero incidunt velit.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+        quis doloremque similique iusto quae velit, a praesentium dolores nam
+        sit quam, molestias cum beatae saepe illo eius sunt fugiat quas. Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Iusto sint molestiae
+        facere natus voluptas, voluptatem labore eius aliquid ratione impedit
+        voluptates nisi! Nemo sit iure, voluptas illum deleniti nihil sequi?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere
+        dolor suscipit quia temporibus aliquam veritatis cupiditate, assumenda
+        cum dolorem officiis nisi dolores corporis eaque? Distinctio asperiores
+        libero incidunt velit.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+        quis doloremque similique iusto quae velit, a praesentium dolores nam
+        sit quam, molestias cum beatae saepe illo eius sunt fugiat quas. Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Iusto sint molestiae
+        facere natus voluptas, voluptatem labore eius aliquid ratione impedit
+        voluptates nisi! Nemo sit iure, voluptas illum deleniti nihil sequi?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere
+        dolor suscipit quia temporibus aliquam veritatis cupiditate, assumenda
+        cum dolorem officiis nisi dolores corporis eaque? Distinctio asperiores
+        libero incidunt velit.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+        quis doloremque similique iusto quae velit, a praesentium dolores nam
+        sit quam, molestias cum beatae saepe illo eius sunt fugiat quas. Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Iusto sint molestiae
+        facere natus voluptas, voluptatem labore eius aliquid ratione impedit
+        voluptates nisi! Nemo sit iure, voluptas illum deleniti nihil sequi?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere
+        dolor suscipit quia temporibus aliquam veritatis cupiditate, assumenda
+        cum dolorem officiis nisi dolores corporis eaque? Distinctio asperiores
+        libero incidunt velit.
+      </p>
+    </div>
+  </body>
+</html>

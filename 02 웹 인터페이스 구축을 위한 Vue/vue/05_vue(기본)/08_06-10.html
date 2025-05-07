@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>08_06-10</title>
+    <style>
+      .score {
+        border: 1px solid black;
+      }
+      .warning {
+        background-color: skyblue;
+        color: purple;
+      }
+      .warnimg {
+        width: 18px;
+        height: 18px;
+        top: 5px;
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div>
+        <p>1부터 100까지만 입력가능합니다.</p>
+        <div>
+          점수 :
+          <!-- 'score'데이터 변경 -> 'info()' 실행 -->
+          <input
+            type="text"
+            class="score"
+            :class="info"
+            v-model.number="score"
+          />
+          <!-- 'info.warnimg'가 true면 화면에 이미지 출력 -->
+          <img
+            src="./img/error.png"
+            alt="error img"
+            class="warnimg"
+            v-if="info.warning"
+            title="1부터 100까지만 입력하세요."
+          />
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script type="text/javascript">
+      let vm = Vue.createApp({
+        name: 'App',
+        data() {
+          return {
+            score: 50,
+          };
+        },
+        computed: {
+          // 'warning: true' / 'warning: false' 반환
+          info() {
+            return { warning: this.score < 1 || this.score > 100 };
+          },
+        },
+      }).mount('#app');
+    </script>
+  </body>
+</html>

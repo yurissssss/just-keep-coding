@@ -1,0 +1,46 @@
+<!-- 변형 -->
+
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>07-2</title>
+    <style>
+      .btnColor {
+        background-color: aqua;
+        color: black;
+      }
+      .btnAlign {
+        text-align: center;
+        width: 120px;
+      }
+      .btnBorder {
+        border: khaki dashed 1px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <input type="checkbox" v-model="btnStyle" value="btnColor" />
+      색상<br />
+      <input type="checkbox" v-model="btnStyle" value="btnAlign" />
+      정렬, 크기<br />
+      <input type="checkbox" v-model="btnStyle" value="btnBorder" />
+      테두리<br />
+      <button :class="btnStyle">버튼</button>
+    </div>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script type="text/javascript">
+      let vm = Vue.createApp({
+        name: 'App',
+        data() {
+          return {
+            // 배열 생성
+            btnStyle: [],
+          };
+        },
+      }).mount('#app');
+    </script>
+  </body>
+</html>

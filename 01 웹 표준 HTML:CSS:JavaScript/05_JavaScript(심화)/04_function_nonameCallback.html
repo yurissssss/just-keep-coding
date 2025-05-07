@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>function_nonameCallback</title>
+    <script>
+      // 함수 선언
+      function callTimes(callback) {
+        // 입력한 'num'만큼 반복
+        for (let i = 0; i < 10; i++) {
+          // 'callback()' = 'alert('함수 호출')'을 실행하는 함수
+          callback();
+        }
+      }
+
+      // 'callTimes' 함수 호출 - 매개변수에 익명 함수 입력
+      // 'callback'이란 변수에 'alert('함수 호출')'을 실행하는 익명 함수 들어감
+      callTimes(function () {
+        alert('함수 호출');
+      });
+    </script>
+  </head>
+  <body></body>
+</html>

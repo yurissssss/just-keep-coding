@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- 여러 객체를 한 번에  지정 -> 배열 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>03_06-04</title>
+  </head>
+  <body>
+    <div id="app">
+      <button id="btn1" :style="[myColor, myLayout]">버튼1</button>
+    </div>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script type="text/javascript">
+      let vm = Vue.createApp({
+        name: 'App',
+        data() {
+          return {
+            myColor: {
+              backgroundColor: 'purple',
+              color: 'yellow',
+            },
+            myLayout: {
+              width: '100px',
+              height: '80px',
+              textAlign: 'center',
+            },
+          };
+        },
+      }).mount('#app');
+    </script>
+  </body>
+</html>

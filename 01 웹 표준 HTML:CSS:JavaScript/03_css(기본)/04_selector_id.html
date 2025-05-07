@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>selector_id</title>
+    <style>
+      /* block 요소는 기본적으로 margin값이 있음 -> 위아래가 붙지 X */
+      #header {
+        width: 800px;
+        margin: 0 auto;
+        background: red;
+      }
+      #wrap {
+        /* wrap_width = aside_width + content_width */
+        width: 800px;
+        margin: 0 auto;
+        /* 부모 요소를 벗어나는 부분 잘라내기 -> 스크롤 안 생김 */
+        /* hidden 안 쓰고 높이 지정해주어도 됨 */
+        /* 단점 : 부모 요소 벗어나면 다 잘림 -> 서브메뉴 불가능 */
+        /* overflow 없으면 부모 요소의 높이는 0이 됨 (부유하므로????)-> 밑에 사진이 있다면 사진이 올라와버림 */
+        overflow: hidden;
+      }
+      #aside {
+        width: 200px;
+        float: left;
+        background: blue;
+      }
+      #content {
+        width: 600px;
+        float: left;
+        background: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <h1>#header 태그</h1>
+    </div>
+    <div id="wrap">
+      <div id="aside">
+        <h1>#aside 태그</h1>
+      </div>
+      <div id="content">
+        <h1>#content 태그</h1>
+      </div>
+    </div>
+  </body>
+</html>
