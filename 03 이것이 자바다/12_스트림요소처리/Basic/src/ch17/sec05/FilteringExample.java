@@ -18,13 +18,13 @@ public class FilteringExample {
                 .forEach(n -> System.out.println(n));
         System.out.println();
 
-        //신으로 시작하는 요소만 필터링
+        //'신'으로 시작하는 요소만 필터링
         list.stream()
                 .filter(n -> n.startsWith("신"))
                 .forEach(n -> System.out.println(n));
         System.out.println();
 
-        //중복 요소를 먼저 제거하고, 신으로 시작하느 요소만 필터링
+        //중복 요소를 먼저 제거하고, '신'으로 시작하느 요소만 필터링
         list.stream()
                 .distinct()
                 .filter(n -> n.startsWith("신"))
