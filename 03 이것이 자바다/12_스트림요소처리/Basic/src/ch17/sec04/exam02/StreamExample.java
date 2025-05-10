@@ -1,4 +1,4 @@
-package ch17.ch17.sec04.exam02;
+package ch17.sec04.exam02;
 
 import java.util.Arrays;
 import java.util.stream.IntStream;
