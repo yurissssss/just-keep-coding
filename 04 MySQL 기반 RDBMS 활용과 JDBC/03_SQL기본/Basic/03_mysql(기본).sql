@@ -69,10 +69,12 @@ SELECT CountryCode, population FROM city ORDER BY CountryCode, population DESC;
 SELECT COUNT(*) AS `국가코드가 'KOR'인 도시의 수` FROM city WHERE CountryCode = 'KOR';
 
 -- (문제 10-4) city 테이블에서 국가코드가 'KOR', 'CHN', 'JPN'인 도시를 찾으세요.
-SELECT COUNT(*) AS `국가코드가 'KOR', 'CHN', 'JPN'인 도시의 수` FROM city WHERE CountryCode IN ('KOR', 'CHN', 'JPN');
+-- SELECT COUNT(*) AS `국가코드가 'KOR', 'CHN', 'JPN'인 도시의 수` FROM city WHERE CountryCode IN ('KOR', 'CHN', 'JPN');
+SELECT name FROM city WHERE CountryCode IN ('KOR', 'CHN', 'JPN');
 
 -- (문제 10-5) 국가코드가 'KOR'이면서 인구가 100만 이상인 도시를 찾으세요.
-SELECT COUNT(*) AS `국가코드가 'KOR'이면서 인구가 100만 이상인 도시` FROM city WHERE CountryCode = 'KOR' AND population >= 1000000;
+-- SELECT COUNT(*) AS `국가코드가 'KOR'이면서 인구가 100만 이상인 도시` FROM city WHERE CountryCode = 'KOR' AND population >= 1000000;
+SELECT name FROM city WHERE name IN (SELECT name FROM city WHERE CountryCode = 'KOR' AND population >= 1000000);
 
 -- (문제 10-6) 국가코드가 'KOR'인 도시 중 인구수가 많은 순서로 상위 10개만 표시하세요.
 SELECT * FROM city WHERE CountryCode = 'KOR' ORDER BY population DESC LIMIT 10;
