@@ -57,7 +57,6 @@ userID 		CHAR(8) 	NOT NULL 	PRIMARY KEY,
 name 		VARCHAR(10),
 birthYear	INT 	   	CHECK(birthYear >= 1900 AND birthYear <= 2-23),
 mobile		CHAR(3) 	NOT NULL,
-CONSTRAINT CK_name CHECK(name IS NOT NULL)
 );
 
 -- ----------------------------------------------------
