@@ -132,21 +132,10 @@ FROM employees E
 	INNER JOIN dept_emp DE
 		ON E.emp_no = DE.emp_no
 	INNER JOIN departments D
-		ON DE.dept_no = D.dept_no;
+		ON DE.dept_no = D.dept_no
+ORDER BY E.emp_no;  -- 순서대로 정렬
         
 SELECT * FROM EMP_DEPT_INFO;
-
--- 풀이
-CREATE VIEW EMP_DEPT_INFO
-AS
-SELECT E.emp_no, D.dept_no, D.dept_name, DE.from_date, DE.to_date
-FROM departments D
-	INNER JOIN dept_emp DE
-		ON D.dept_no = DE.dept_no
-	INNER JOIN employees E
-		ON DE.emp_no = E.emp_no
-ORDER BY E.emp_no;
-
 
 -- (문제 6-4) EMP_DEPT_INFO로 현재 재직자의 부서 정보를 출력하세요.
 SELECT * 
