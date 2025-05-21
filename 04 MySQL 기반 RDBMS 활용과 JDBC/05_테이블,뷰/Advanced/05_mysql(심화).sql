@@ -6,9 +6,9 @@ DROP TABLE IF EXISTS userTBL;
 
 -- (문제 1-1) userTBL
 CREATE TABLE userTBL(
-userID 		CHAR(8) 		NOT NULL 	PRIMARY KEY,
+userID 		CHAR(8) 	NOT NULL 	PRIMARY KEY,
 name 		VARCHAR(10) 	NOT NULL,
-birthyear 	INT 			NOT NULL
+birthyear 	INT 		NOT NULL
 );
 
 DESC userTBL;
@@ -17,7 +17,7 @@ DESC userTBL;
 DROP TABLE IF EXISTS buyTBL;
 
 CREATE TABLE buyTBL(
-num 		INT 		NOT NULL 	AUTO_INCREMENT 		PRIMARY KEY,
+num 		INT 		NOT NULL 	AUTO_INCREMENT 	PRIMARY KEY,
 userID 		CHAR(8) 	NOT NULL,
 prodName 	CHAR(6) 	NOT NULL
 );
@@ -38,10 +38,10 @@ DROP TABLE IF EXISTS buyTBL;
 DROP TABLE IF EXISTS userTBL;
 
 CREATE TABLE userTBL(
-userID 			CHAR(8) 		NOT NULL 	PRIMARY KEY,
-name 			VARCHAR(10)	 	NOT NULL,
-birthyear 		INT 			NOT NULL,
-email 			CHAR(30) 		NOT	NULL	 UNIQUE  -- UNIQUE 중복불가
+userID 		CHAR(8) 	NOT NULL 	PRIMARY KEY,
+name 		VARCHAR(10)	NOT NULL,
+birthyear 	INT 		NOT NULL,
+email 		CHAR(30) 	NOT NULL	UNIQUE  -- UNIQUE 중복불가
 );
 
 DESC userTBL;
@@ -53,10 +53,10 @@ DESC userTBL;
 DROP TABLE IF EXISTS userTBL;
 
 CREATE TABLE userTBL(
-userID 		CHAR(8) 		NOT NULL 	PRIMARY KEY,
+userID 		CHAR(8) 	NOT NULL 	PRIMARY KEY,
 name 		VARCHAR(10),
-birthYear	INT 						CHECK(birthYear >= 1900 AND birthYear <= 2-23),
-mobile		CHAR(3) 		NOT NULL,
+birthYear	INT 	   	CHECK(birthYear >= 1900 AND birthYear <= 2-23),
+mobile		CHAR(3) 	NOT NULL,
 CONSTRAINT CK_name CHECK(name IS NOT NULL)
 );
 
@@ -67,14 +67,14 @@ CONSTRAINT CK_name CHECK(name IS NOT NULL)
 DROP TABLE IF EXISTS userTBL;
 
 CREATE TABLE userTBL(
-userID 		CHAR(8) 		NOT NULL 	PRIMARY KEY,
+userID 		CHAR(8) 	NOT NULL 	PRIMARY KEY,
 name 		VARCHAR(10) 	NOT NULL,
-birthYear 	INT 			NOT NULL 	DEFAULT -1,
-addr 		CHAR(2)			NOT NULL	DEFAULT '서울',
-mobile1 	CHAR(3)			NULL,
-mobile2 	CHAR(8) 		NULL,
-height 		SMALLINT 		NULL		DEFAULT 170,
-mDate 		DATE 			NULL
+birthYear 	INT 		NOT NULL 	DEFAULT -1,
+addr 		CHAR(2)		NOT NULL	DEFAULT '서울',
+mobile1 	CHAR(3)		NULL,
+mobile2 	CHAR(8) 	NULL,
+height 		SMALLINT 	NULL		DEFAULT 170,
+mDate 		DATE 		NULL
 );
 -- 'INSERT INTO'문을 실행할 때 'default'로 입력 -> 설정된 기본값 (DEFAULT) 자동 입력
 -- 'INSERT INTO'문을 실행할 때 컬럼 명 X -> 설정된 기본값 (DEFAULT) 자동 입력
@@ -109,7 +109,7 @@ DESC usertbl;
 USE employees;
 
 -- (문제 6-1) 다음 정보를 가지는 직원 정보를 출력하는 EMPLOYEES_INFO 뷰를 작성하세요.
-CREATE VIEW EMPLOYEES_INFO
+CREATE OR REPLACE VIEW EMPLOYEES_INFO
 AS
 SELECT E.*, T.title, T.from_date t_from, T.to_date t_to, S.salary, S.from_date s_from, S.to_date s_to
 FROM employees E
@@ -125,7 +125,7 @@ SELECT * FROM EMPLOYEES_INFO WHERE s_to = '9999-01-01';
 
 -- (문제 6-3) 다음 정보를 가지는 부서 정보를 출력하는 EMP_DEPT_INFO 뷰를 작성하세요.
 -- 내가 푼 풀이
-CREATE VIEW EMP_DEPT_INFO
+CREATE OR REPLACE VIEW EMP_DEPT_INFO
 AS
 SELECT E.emp_no, DE.dept_no, D.dept_name, DE.from_date, DE.to_date
 FROM employees E
