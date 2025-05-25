@@ -146,6 +146,14 @@ public class TravelDaoImpl implements TravelDao {
         return travels;
     }
 
+    private TravelImageVO mapImage(ResultSet rs) throws SQLException {
+        return TravelImageVO.builder()
+                .no(rs.getLong("tino"))
+                .filename(rs.getString("filename"))
+                .travelNo(rs.getLong("travel_no"))
+                .build();
+    }
+
     @Override
     public Optional<TravelVO> getTravel(Long no) {
         TravelVO travel = null;
