@@ -15,10 +15,10 @@ import java.util.Optional;
 public class TravelDaoImpl implements TravelDao {
     Connection conn = JDBCUtil.getConnection();
 
+    // TravelVO 테이블에 저장
     @Override
     public void insert(TravelVO travel) {
         String sql = "insert into tbl_travel(no, district, title, description, address, phone) values(?,?,?,?,?,?)";
-
         try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
             pstmt.setLong(1, travel.getNo());
             pstmt.setString(2, travel.getDistrict());
@@ -33,10 +33,10 @@ public class TravelDaoImpl implements TravelDao {
         }
     }
 
+    // TraveImagelVO 테이블에 저장
     @Override
     public void insertImage(TravelImageVO image) {
         String sql = "insert into tbl_travel_image(filename, travel_no) values(?,?)";
-
         try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
             pstmt.setString(1, image.getFilename());
             pstmt.setLong(2, image.getTravelNo());
@@ -47,6 +47,7 @@ public class TravelDaoImpl implements TravelDao {
         }
     }
 
+    // 전체 데이터 건수 얻기
     @Override
     public int getTotalCount() {
         String sql = "select count(*) from tbl_travel";
@@ -60,11 +61,10 @@ public class TravelDaoImpl implements TravelDao {
     }
 
     // 권역 목록 얻기
-
     @Override
     public List<String> getDistricts() {
         List<String> districts = new ArrayList<>();
-        String sql = "SELECT DISTINCT(district) FROM tbl_travel ORDER BY district";
+        String sql = "select distinct(district) from tbl_travel order by district";
 
         try (PreparedStatement pstmt = conn.prepareStatement(sql);
              ResultSet rs = pstmt.executeQuery()) {
@@ -83,10 +83,12 @@ public class TravelDaoImpl implements TravelDao {
                 .district(rs.getString("district"))
                 .title(rs.getString("title"))
                 .description(rs.getString("description"))
-                .phone(rs.getString("address"))
+                .address(rs.getString("address"))
+                .phone(rs.getString("phone"))
                 .build();
     }
 
+    // 목록 얻기
     @Override
     public List<TravelVO> getTravels() {
         List<TravelVO> travels = new ArrayList<>();
@@ -103,6 +105,7 @@ public class TravelDaoImpl implements TravelDao {
         return travels;
     }
 
+    // 페이지별 목록 얻기
     @Override
     public List<TravelVO> getTravels(int page) {
         List<TravelVO> travels = new ArrayList<>();
@@ -113,19 +116,13 @@ public class TravelDaoImpl implements TravelDao {
             int start = (page - 1) * count;
             pstmt.setInt(1, start);
             pstmt.setInt(2, count);
-
-            try (ResultSet rs = pstmt.executeQuery()) {
-                while (rs.next()) {
-                    TravelVO travel = map(rs);
-                    travels.add(travel);
-                }
-            }
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
         return travels;
     }
 
+    // 해당 권역의 목록 얻기
     @Override
     public List<TravelVO> getTravels(String district) {
         List<TravelVO> travels = new ArrayList<>();
@@ -146,17 +143,25 @@ public class TravelDaoImpl implements TravelDao {
         return travels;
     }
 
+    private TravelImageVO mapImage(ResultSet rs) throws SQLException {
+        return TravelImageVO.builder()
+                .no(rs.getLong("tino"))
+                .filename(rs.getString("filename"))
+                .travelNo(rs.getLong("travel_no"))
+                .build();
+    }
+
+    // 특정 관광지 정보 얻기
     @Override
     public Optional<TravelVO> getTravel(Long no) {
         TravelVO travel = null;
         String sql = """
                 select t.*, ti.no as tino, ti.filename, ti.travel_no
                 from tbl_travel t
-                    left outer join tbl_travel_image ti
+                    inner join tbl_travel_image ti
                         on t.no = ti.travel_no
                 where t.no = ?;
                 """;
-
         try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
             pstmt.setLong(1, no);
             try (ResultSet rs = pstmt.executeQuery()) {
@@ -169,7 +174,8 @@ public class TravelDaoImpl implements TravelDao {
                             images.add(image);
                         } while (rs.next());
                     } catch (SQLException e) {
-                        // 이미지가 없는 경우 발새
+                        // 이미지가 없는 경우 발생
+                        // -> 무시
                     }
                     travel.setImages(images);
                     return Optional.of(travel);

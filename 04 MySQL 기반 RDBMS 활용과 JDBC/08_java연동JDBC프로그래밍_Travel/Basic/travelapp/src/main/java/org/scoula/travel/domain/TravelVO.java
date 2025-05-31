@@ -19,5 +19,6 @@ public class TravelVO {
     private String address;
     private String phone;
 
+    // 관광지 정보 - 해당 이미지 얻기 위해 추가
     private List<TravelImageVO> images;
 }

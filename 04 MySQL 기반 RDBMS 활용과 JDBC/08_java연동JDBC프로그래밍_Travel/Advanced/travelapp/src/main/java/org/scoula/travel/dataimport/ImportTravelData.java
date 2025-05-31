@@ -7,14 +7,13 @@ import org.scoula.travel.dao.TravelDaoImpl;
 import org.scoula.travel.domain.TravelVO;
 
 import java.io.FileReader;
-import java.util.ArrayList;
 import java.util.List;
 
 public class ImportTravelData {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         TravelDao dao = new TravelDaoImpl();
 
-        List<TravelVO> travels = new CsvToBeanBuilder<>(new FileReader("travel.csv"))
+        List<TravelVO> travels = new CsvToBeanBuilder<TravelVO>(new FileReader("travel.csv"))
                 .withType(TravelVO.class)
                 .build()
                 .parse();
