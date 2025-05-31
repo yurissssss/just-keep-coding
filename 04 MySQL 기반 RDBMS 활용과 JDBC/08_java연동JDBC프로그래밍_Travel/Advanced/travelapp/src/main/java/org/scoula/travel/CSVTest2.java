@@ -13,6 +13,8 @@ public class CSVTest2 {
                 .build()
                 .parse();
 
-        travels.forEach(travel -> System.out.println(travel));
+     ;   travels.forEach(travel -> {
+            System.out.println(travel);
+        });
     }
 }

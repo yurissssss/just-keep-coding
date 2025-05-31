@@ -1,7 +1,6 @@
 package org.scoula.travel.service;
 
 public interface TravelService {
-
     // 전체 관광지 목록 출력하기
     void printTravels();
 

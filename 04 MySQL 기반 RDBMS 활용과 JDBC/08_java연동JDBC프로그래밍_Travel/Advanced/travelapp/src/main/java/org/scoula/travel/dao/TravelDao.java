@@ -11,7 +11,7 @@ public interface TravelDao {
 
     void insertImage(TravelImageVO image);
 
-    int getTotalCount();
+    int getTotalCount();  // 전체 데이터 건수 얻기
 
     List<String> getDistricts();  // 권역 목록 얻기
 
@@ -22,4 +22,5 @@ public interface TravelDao {
     List<TravelVO> getTravels(String district);  // 해당 권역의 목록 얻기
 
     Optional<TravelVO> getTravel(Long no);  // 특정 관광지 정보 얻기
+
 }

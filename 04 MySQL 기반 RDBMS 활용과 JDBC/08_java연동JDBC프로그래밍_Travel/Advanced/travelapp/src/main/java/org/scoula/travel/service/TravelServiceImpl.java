@@ -20,22 +20,23 @@ public class TravelServiceImpl implements TravelService {
      * }
      */
 
+
     private int getNumber(String prompt) {
         System.out.println(prompt);
-        Scanner sc = new Scanner(System.in);
+        Scanner sc =  new Scanner(System.in);
         int num = Integer.parseInt(sc.nextLine());
         return num;
     }
 
     private void printDistricts(List<String> districts) {
-        for (int i=0; i<districts.size(); i++) {
+        for (int i = 0; i < districts.size(); i++) {
             System.out.printf("%d] %s\n", i + 1, districts.get(i));
         }
     }
 
     private void printTravels(List<TravelVO> travels) {
         for (TravelVO travel : travels) {
-            System.out.printf("%3d %6d %s\n", travel.getNo(), travel.getDistrict(), travel.getTitle());
+            System.out.printf("%3d %6s %s\n", travel.getNo(), travel.getDistrict(), travel.getTitle());
         }
     }
 
@@ -51,7 +52,7 @@ public class TravelServiceImpl implements TravelService {
         printDistricts(districts);
 
         int ix = getNumber("선택: ");
-        String district = districts.get(ix -1);
+        String district = districts.get(ix - 1);
         List<TravelVO> travels = dao.getTravels(district);
         printTravels(travels);
     }
@@ -60,7 +61,7 @@ public class TravelServiceImpl implements TravelService {
     public void printTravelsByPage() {
         int totalPage = (int) Math.ceil(dao.getTotalCount() / 10.0);
         System.out.printf("총 %d 페이지\n", totalPage);
-        int page = getNumber(String.format("페이지 선택(1~%d", totalPage));
+        int page = getNumber(String.format("페이지 선택 (1 ~ %d): ", totalPage));
         List<TravelVO> travels = dao.getTravels(page);
         printTravels(travels);
     }
@@ -69,14 +70,16 @@ public class TravelServiceImpl implements TravelService {
     public void printTravel() {
         long no = getNumber("관광지 No: ");
         TravelVO travel = dao.getTravel(no).orElseThrow(NoSuchElementException::new);
-        System.out.println("권역: " + travel.getDistrict());
+        System.out.println("권역: "  + travel.getDistrict());
         System.out.println("제목: " + travel.getTitle());
         System.out.println("설명: " + travel.getDescription());
         System.out.println("주소: " + travel.getAddress());
         System.out.println("전화번호: " + travel.getPhone());
         System.out.println("사진들");
         for (TravelImageVO image : travel.getImages()) {
-            System.out.printf(" [%3d] %s\n", image.getNo(), image.getFilename());
+            System.out.printf("[%3d] %s\n", image.getNo(), image.getFilename());
         }
     }
+
+
 }
