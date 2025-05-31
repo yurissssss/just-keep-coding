@@ -119,11 +119,11 @@
 <br>
   
 | 항목                  | 기본 디렉토리             | 제출 | 심화 디렉토리    | 제출 |
-|---------------------|---------------------|:--:|------------|:-:|
-| 01 서블릿 기초           | `Basic` | ✅  | `Advanced` | ✅ |
-| 02 JSP의 이해          | `Basic` | ✅  | `Advanced` | ㅁ |
-| 03 서블릿 심화           | `Basic`   | 〰  | `Advanced` | 〰 |
-| 04 요청 포워딩, EL, JSTL | `Basic`   | 〰  | `Advanced` |  〰 |
+|---------------------|---------------------|:--:|------------|:--:|
+| 01 서블릿 기초           | `Basic` | ✅  | `Advanced` | ✅  |
+| 02 JSP의 이해          | `Basic` | ✅  | `Advanced` | 〰  |
+| 03 서블릿 심화           | `Basic`   | 〰  | `Advanced` | 〰  |
+| 04 요청 포워딩, EL, JSTL | `Basic`   | 〰  | `Advanced` | 〰  |
 | 05 FrontController  | `Basic`   |  〰  | `Advanced` | 〰  |
 
 
@@ -133,19 +133,19 @@
 <summary>🐰 07 - Spring Framework를 활용한 애플리케이션 개발</summary>
 <br>
 
-| 항목                          | 기본 디렉토리             | 제출 | 심화 디렉토리    | 제출 |
-|-----------------------------|---------------------|:--:|------------|::|
-| 01 Spring 이해                | `Basic` |  〰  | `Advanced` | 〰 |
-| 02 Spring MVC               | `Basic` |  〰  | `Advanced` | 〰 |
-| 03 Spring -MyBatis 연동       | `Basic`   |  〰  | `Advanced` | 〰 |
-| 04 Spring 기본 게시판            | `Basic`   | 〰   | `Advanced` | 〰 |
-| 05 Spring 기본 게시판, 파일 업로드    | `Basic`   |  〰  | `Advanced` | 〰 |
-| 06 Rest                     | `Basic`   |  〰  | `Advanced` | 〰 |
-| 07 OpenAPI                  | `Basic`   | 〰   | `Advanced` | 〰 |
-| 08 Spring AOP               | `Basic`   |  〰  | `Advanced` | 〰 |
-| 09 Spring Security From 인증  | `Basic`   | 〰   | `Advanced` | 〰 |
-| 10 Spring Security JWT 인증   | `Basic`   | 〰   | `Advanced` | 〰 |
-| 11 Spring Security JWT 인증 2 | `Basic`   | 〰   | `Advanced` | 〰 |
+| 항목                          | 기본 디렉토리 | 제출 | 심화 디렉토리 | 제출 |
+|-------------------------------|----------------|:----:|----------------|:----:|
+| 01 Spring 이해                | `Basic`        | 〰   | `Advanced`      | 〰   |
+| 02 Spring MVC                | `Basic`        | 〰   | `Advanced`      | 〰   |
+| 03 Spring -MyBatis 연동      | `Basic`        | 〰   | `Advanced`      | 〰   |
+| 04 Spring 기본 게시판        | `Basic`        | 〰   | `Advanced`      | 〰   |
+| 05 Spring 게시판 + 파일 업로드 | `Basic`        | 〰   | `Advanced`      | 〰   |
+| 06 Rest                      | `Basic`        | 〰   | `Advanced`      | 〰   |
+| 07 OpenAPI                   | `Basic`        | 〰   | `Advanced`      | 〰   |
+| 08 Spring AOP                | `Basic`        | 〰   | `Advanced`      | 〰   |
+| 09 Spring Security Form 인증 | `Basic`        | 〰   | `Advanced`      | 〰   |
+| 10 Spring Security JWT 인증  | `Basic`        | 〰   | `Advanced`      | 〰   |
+| 11 Spring Security JWT 인증 2| `Basic`        | 〰   | `Advanced`      | 〰   |
 
 
 </details>
