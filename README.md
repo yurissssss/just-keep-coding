@@ -11,11 +11,12 @@
 ## 📁 폴더 구조
 
 - [01_웹 표준 HTML/CSS/JavaScript] HTML & CSS & JS - 기본/심화 실습
-- [02_웹 인터페이스 구축을 위한 Vue] Node.js & Vue - 기본/심화 실습
+- [02_웹 인터페이스 구축을 위한 Vue] Node.js & Vue.js - 기본/심화 실습
 - [03_백엔드 개발을 위한 자바 프로그래밍] Java - 기본/심화 실습
 - [04_MySQL 기반 RDBMS 활용과 JDBC] MySQL - 기본/심화 실습
 - [05_NoSQL 기반 MongoDB] MongoDB - 기본/심화 실습
 - [06_Servlet/JSP/JSTL_기반_서버_프로그래밍] Servlet & JSP & JSTL - 기본/심화 실습
+- [07_Spring_Framework를_활용한_애플리케이션_개발] Spring Framework - 기본/심화 실습
 
 ---
 
@@ -71,44 +72,44 @@
 | 02 조건문, 반복문, 참조타입         | `Basic`    | ✅   | `Advanced`    | ✅   |
 | 03 클래스                           | `Basic`    | ✅   | `Advanced`    | ✅   |
 | 04 상속                             | `Basic`    | ✅   | `Advanced`    | ✅   |
-| 05 인터페이스                       | `Basic`    | ✅   | `05_JAVA(심화)`    | ✅   |
-| 06 중첩 객체                      |   `Basic`  |   ✅  |   `06_JAVA(심화)`  |   ✅  |
-| 07 예외처리, 라이브러리             | `Basic`    | ✅   | `07_JAVA(심화)`    | ✅   |
-| 08 멀티스레드                       | `Basic`    | ✅   | `08_JAVA(심화)`    | ✅   |
-| 09 제너릭, 컬렉션                   | `Basic`    | ✅   | `09_JAVA(심화)`    | ✅   |
-| 10 컬렉션                           | `Basic`    | ✅   | `10_JAVA(심화)`    | ✅   |
-| 11 람다식                           | `Basic`    | ✅   | `11_JAVA(심화)`    | ✅   |
-| 12 스트림 요소 처리                 | `Basic`    | ✅   | `12_JAVA(심화)`    | ✅   |
-| 13 데이터 입출력                    | `Basic`    | ✅   | `13_JAVA(심화)`    | ✅   |
+| 05 인터페이스                       | `Basic`    | ✅   | `Advanced`    | ✅   |
+| 06 중첩 객체                      |   `Basic`  |   ✅  |   `Advanced`  |   ✅  |
+| 07 예외처리, 라이브러리             | `Basic`    | ✅   | `Advanced`    | ✅   |
+| 08 멀티스레드                       | `Basic`    | ✅   | `Advanced`    | ✅   |
+| 09 제너릭, 컬렉션                   | `Basic`    | ✅   | `Advanced`    | ✅   |
+| 10 컬렉션                           | `Basic`    | ✅   | `Advanced`    | ✅   |
+| 11 람다식                           | `Basic`    | ✅   | `Advanced`    | ✅   |
+| 12 스트림 요소 처리                 | `Basic`    | ✅   | `Advanced`    | ✅   |
+| 13 데이터 입출력                    | `Basic`    | ✅   | `Advanced`    | ✅   |
 
 
 </details>
 
 <details>
-<summary>🥝 04 - MySQL 기반 RDBMS 활용과 JDBC</summary>
+<summary>🥝 04 - MySQL 기반 RDBMS 활용과 JDBC ✨ 완료 </summary>
 <br>
 
 | 항목                                | 기본 디렉토리     | 제출 | 심화 디렉토리     | 제출 |
 |-------------------------------------|--------------------|:----:|--------------------|:----:|
-| 01 DBMS 개요, 설치, 전체 운영 실습     | `01_SQL(기본)`    | ✅   | `01_SQL(심화)`    | ✅   |
-| 02 데이터베이스 모델링, MySQL 유틸리티 사용법 | `02_SQL(기본)`    | ✅   | `02_SQL(심화)`    | ✅   |
-| 03 SQL 기본                           | `03_SQL(기본)`    | ✅   | `03_SQL(심화)`    | ✅   |
-| 04 SQL 고급                           | `04_SQL(기본)`    | ✅   | `04_SQL(심화)`    | ✅   |
-| 05 테이블, 뷰                         | `05_SQL(기본)`    | ✅   | `05_SQL(심화)`    | ✅   |
-| 06 인덱스, 사용자 관리                | `06_SQL(기본)`    | ✅   | `06_SQL(심화)`    | ✅   |
-| 07 Java 연동 JDBC 프로그래밍          | `07_SQL(기본)`    | ✅   | `07_SQL(심화)`    | ✅   |
-| 08 Java 연동 JDBC 프로그래밍 - Travel | `08_SQL(기본)`    | ✅   | `08_SQL(심화)`    | ✅   |
+| 01 DBMS 개요, 설치, 전체 운영 실습     | `Basic`    | ✅   | `Advanced`    | ✅   |
+| 02 데이터베이스 모델링, MySQL 유틸리티 사용법 | `Basic`    | ✅   | `Advanced`    | ✅   |
+| 03 SQL 기본                           | `Basic`    | ✅   | `Advanced`    | ✅   |
+| 04 SQL 고급                           | `Basic`    | ✅   | `Advanced`    | ✅   |
+| 05 테이블, 뷰                         | `Basic`    | ✅   | `Advanced`    | ✅   |
+| 06 인덱스, 사용자 관리                | `Basic`    | ✅   | `Advanced`    | ✅   |
+| 07 Java 연동 JDBC 프로그래밍          | `Basic`    | ✅   | `Advanced`    | ✅   |
+| 08 Java 연동 JDBC 프로그래밍 - Travel | `Basic`    | ✅   | `Advanced`    | ✅   |
 
 </details>
 
 <details>
-<summary>🫐 05 - NoSQL 기반 MongoDB</summary>
+<summary>🫐 05 - NoSQL 기반 MongoDB ✨ 완료 </summary>
 <br>
   
-| 항목                  | 기본 디렉토리     | 제출 | 심화 디렉토리     | 제출 |
-|-----------------------|--------------------|:----:|--------------------|:----:|
-| 01 MongoDB            | `01_MONGO(기본)`   | ✅   | `01_MONGO(심화)`   | ✅   |
-| 02 몽고DB Java 연동   | `02_MONGO(기본)`   | ✅   | `02_MONGO(심화)`   | ✅   |
+| 항목              | 기본 디렉토리     | 제출 | 심화 디렉토리    | 제출 |
+|-----------------|--------------------|:----:|------------|:----:|
+| 01 MongoDB      | `Basic`   | ✅   | `Advanced` | ✅   |
+| 02 몽고DB Java 연동 | `Basic`   | ✅   | `Advanced` | ✅   |
 
 
 </details>
@@ -117,10 +118,34 @@
 <summary>🍇 06 - Servlet/JSP/JSTL 기반 서버 프로그래밍</summary>
 <br>
   
-| 항목                  | 기본 디렉토리     | 제출 | 심화 디렉토리     | 제출 |
-|-----------------------|--------------------|:----:|--------------------|:----:|
-| 01 서블릿 기초          | `01_서블릿 기초(기본)`   | ✅   | `01_MONGO(심화)`   | ✅   |
-| 02 몽고DB Java 연동   | `02_MONGO(기본)`   | ✅   | `02_MONGO(심화)`   | ✅   |
+| 항목                  | 기본 디렉토리             | 제출 | 심화 디렉토리    | 제출 |
+|---------------------|---------------------|:--:|------------|:-:|
+| 01 서블릿 기초           | `Basic` | ✅  | `Advanced` | ✅ |
+| 02 JSP의 이해          | `Basic` | ✅  | `Advanced` |   |
+| 03 서블릿 심화           | `Basic`   |    | `Advanced` |   |
+| 04 요청 포워딩, EL, JSTL | `Basic`   |    | `Advanced` |   |
+| 05 FrontController  | `Basic`   |    | `Advanced` |   |
+
+
+</details>
+
+<details>
+<summary>🐰 07 - Spring Framework를 활용한 애플리케이션 개발</summary>
+<br>
+
+| 항목                          | 기본 디렉토리             | 제출 | 심화 디렉토리    | 제출 |
+|-----------------------------|---------------------|:--:|------------|:-:|
+| 01 Spring 이해                | `Basic` | ✅  | `Advanced` | ✅ |
+| 02 Spring MVC               | `Basic` | ✅  | `Advanced` |   |
+| 03 Spring -MyBatis 연동       | `Basic`   |    | `Advanced` |   |
+| 04 Spring 기본 게시판            | `Basic`   |    | `Advanced` |   |
+| 05 Spring 기본 게시판, 파일 업로드    | `Basic`   |    | `Advanced` |   |
+| 06 Rest                     | `Basic`   |    | `Advanced` |   |
+| 07 OpenAPI                  | `Basic`   |    | `Advanced` |   |
+| 08 Spring AOP               | `Basic`   |    | `Advanced` |   |
+| 09 Spring Security From 인증  | `Basic`   |    | `Advanced` |   |
+| 10 Spring Security JWT 인증   | `Basic`   |    | `Advanced` |   |
+| 11 Spring Security JWT 인증 2 | `Basic`   |    | `Advanced` |   |
 
 
 </details>
