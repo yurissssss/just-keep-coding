@@ -8,7 +8,7 @@
         <option name="gradleJvm" value="ms-17" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/../../../../04 MySQL 기반 RDBMS 활용과 JDBC/08_java연동JDBC프로그래밍_Travel/Basic/travelapp" />
           </set>
         </option>
       </GradleProjectSettings>
