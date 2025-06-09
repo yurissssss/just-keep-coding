@@ -122,9 +122,9 @@
 |---------------------|---------------------|:--:|------------|:--:|
 | 01 서블릿 기초           | `Basic` | ✅  | `Advanced` | ✅  |
 | 02 JSP의 이해          | `Basic` | ✅  | `Advanced` | ✅  |
-| 03 서블릿 심화           | `Basic`   | 〰  | `Advanced` | 〰  |
-| 04 요청 포워딩, EL, JSTL | `Basic`   | 〰  | `Advanced` | 〰  |
-| 05 FrontController  | `Basic`   |  〰  | `Advanced` | 〰  |
+| 03 서블릿 심화           | `Basic`   | ✅  | `Advanced` | ✅  |
+| 04 요청 포워딩, EL, JSTL | `Basic`   | ✅  | `Advanced` | 〰  |
+| 05 FrontController  | `Basic`   |  ✅  | `Advanced` | 〰  |
 
 
 </details>
