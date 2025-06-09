@@ -115,7 +115,7 @@
 </details>
 
 <details>
-<summary>🍇 06 - Servlet/JSP/JSTL 기반 서버 프로그래밍</summary>
+<summary>🍇 06 - Servlet/JSP/JSTL 기반 서버 프로그래밍 ✨ 완료 </summary>
 <br>
   
 | 항목                  | 기본 디렉토리             | 제출 | 심화 디렉토리    | 제출 |
@@ -123,8 +123,8 @@
 | 01 서블릿 기초           | `Basic` | ✅  | `Advanced` | ✅  |
 | 02 JSP의 이해          | `Basic` | ✅  | `Advanced` | ✅  |
 | 03 서블릿 심화           | `Basic`   | ✅  | `Advanced` | ✅  |
-| 04 요청 포워딩, EL, JSTL | `Basic`   | ✅  | `Advanced` | 〰  |
-| 05 FrontController  | `Basic`   |  ✅  | `Advanced` | 〰  |
+| 04 요청 포워딩, EL, JSTL | `Basic`   | ✅  | `Advanced` | ✅  |
+| 05 FrontController  | `Basic`   |  ✅  | `Advanced` | ✅  |
 
 
 </details>
@@ -135,7 +135,7 @@
 
 | 항목                          | 기본 디렉토리 | 제출 | 심화 디렉토리 | 제출 |
 |-------------------------------|----------------|:----:|----------------|:----:|
-| 01 Spring 이해                | `Basic`        | 〰   | `Advanced`      | 〰   |
+| 01 Spring 이해                | `Basic`        | ✅   | `Advanced`      | 〰   |
 | 02 Spring MVC                | `Basic`        | 〰   | `Advanced`      | 〰   |
 | 03 Spring -MyBatis 연동      | `Basic`        | 〰   | `Advanced`      | 〰   |
 | 04 Spring 기본 게시판        | `Basic`        | 〰   | `Advanced`      | 〰   |
