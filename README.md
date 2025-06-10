@@ -135,17 +135,18 @@
 
 | 항목                          | 기본 디렉토리 | 제출 | 심화 디렉토리 | 제출 |
 |-------------------------------|----------------|:----:|----------------|:----:|
-| 01 Spring 이해                | `Basic`        | ✅   | `Advanced`      | 〰   |
-| 02 Spring MVC                | `Basic`        | 〰   | `Advanced`      | 〰   |
-| 03 Spring -MyBatis 연동      | `Basic`        | 〰   | `Advanced`      | 〰   |
-| 04 Spring 기본 게시판        | `Basic`        | 〰   | `Advanced`      | 〰   |
-| 05 Spring 게시판 + 파일 업로드 | `Basic`        | 〰   | `Advanced`      | 〰   |
-| 06 Rest                      | `Basic`        | 〰   | `Advanced`      | 〰   |
-| 07 OpenAPI                   | `Basic`        | 〰   | `Advanced`      | 〰   |
-| 08 Spring AOP                | `Basic`        | 〰   | `Advanced`      | 〰   |
-| 09 Spring Security Form 인증 | `Basic`        | 〰   | `Advanced`      | 〰   |
-| 10 Spring Security JWT 인증  | `Basic`        | 〰   | `Advanced`      | 〰   |
-| 11 Spring Security JWT 인증 2| `Basic`        | 〰   | `Advanced`      | 〰   |
+| 01 Spring 이해                | `Basic`        | ✅   | `Advanced`      | ✅   |
+| 02 Spring 이해2                | `Basic`        | ✅   | `Advanced`      | ✅   |
+| 03 Spring MVC                | `Basic`        | 〰   | `Advanced`      | 〰   |
+| 04 Spring -MyBatis 연동      | `Basic`        | 〰   | `Advanced`      | 〰   |
+| 05 Spring 기본 게시판        | `Basic`        | 〰   | `Advanced`      | 〰   |
+| 06 Spring 게시판 + 파일 업로드 | `Basic`        | 〰   | `Advanced`      | 〰   |
+| 07 Rest                      | `Basic`        | 〰   | `Advanced`      | 〰   |
+| 08 OpenAPI                   | `Basic`        | 〰   | `Advanced`      | 〰   |
+| 09 Spring AOP                | `Basic`        | 〰   | `Advanced`      | 〰   |
+| 10 Spring Security Form 인증 | `Basic`        | 〰   | `Advanced`      | 〰   |
+| 11 Spring Security JWT 인증  | `Basic`        | 〰   | `Advanced`      | 〰   |
+| 12 Spring Security JWT 인증 2| `Basic`        | 〰   | `Advanced`      | 〰   |
 
 
 </details>
@@ -161,12 +162,10 @@
 | `update`  | ✏️     | 기존 코드나 내용 수정 시                 |
 | `remove`  | 🧹     | 파일/폴더 삭제 시                      |
 | `docs`    | 📝     | 문서나 README 수정 시                    |
-| `init`    | 🎉     | 저장소나 프로젝트 초기 세팅 시           |
 
 ### 💡 커밋 메시지 예시
 
-- 📁 add: 01_HTML 기본 문제 업로드 04-17
-- ✏️ update: 03_CSS(기본) flex 레이아웃 문제 보완 04-17
-- 🧹 remove: 02_HTML(심화) 임시 파일 삭제 04-17
-- 📝 docs: README.md 업데이트 - 폴더 구조 및 진도표 추가 04-17
-- 🎉 init: 프로젝트 초기 설정 및 디렉토리 구조 확정 04-17
+- 📁 add: 01_HTML 기본 문제 04-17
+- ✏️ update: 03_CSS(기본) flex 레이아웃 04-17
+- 🧹 remove: 02_HTML(심화) 임시 파일 04-17
+- 📝 docs: README.md 업데이트 - 폴더 구조 및 진도표 04-17
