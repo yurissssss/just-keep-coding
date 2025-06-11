@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- log4j1.xml을 보완한 파일 (안전) -->
+
+<Configuration>
+
+    <!-- Appender, Layout 설정-->
+    <Appenders>
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout charset="UTF-8" pattern=" %-5level %c(%M:%L) - %m%n"/>
+        </Console>
+    </Appenders>
+
+    <!-- Logger 설정-->
+    <Loggers>
+        <!-- INFO : 일반 정보를 나타낼 때 로깅 (INFO + ERROR) -->
+        <Root level="INFO">
+            <AppenderRef ref="console"/>
+        </Root>
+        <!-- HandlerMapping의등록 정보를확인 -->
+        <Logger name="_org.springframework.web.servlet.HandlerMapping.Mappings" level="DEBUG" additivity="false">
+            <AppenderRef ref="console"/>
+        </Logger>
+        <Logger name="org.scoula" level="INFO" additivity="false">
+            <AppenderRef ref="console"/>
+        </Logger>
+        <Logger name="org.springframework" level="INFO" additivity="false">
+            <AppenderRef ref="console"/>
+        </Logger>
+    </Loggers>
+
+</Configuration>
