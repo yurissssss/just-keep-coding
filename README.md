@@ -138,12 +138,11 @@
 | 01 Spring 이해                | `Basic`        | ✅   | `Advanced`      | ✅   |
 | 02-1 Spring 이해2                | `Basic`        | ✅   | `Advanced`      | ✅   |
 | 02-2 Spring MVC                | `Basic`        | ✅   | `Advanced`      | 〰   |
-| 03 Spring -MyBatis 연동      | `Basic`        | 〰   | `Advanced`      | 〰   |
-| 04 Spring 기본 게시판        | `Basic`        | 〰   | `Advanced`      | 〰   |
-| 05 Spring 게시판 + 파일 업로드 | `Basic`        | 〰   | `Advanced`      | 〰   |
-| 06 Rest                      | `Basic`        | 〰   | `Advanced`      | 〰   |
-| 07 OpenAPI                   | `Basic`        | 〰   | `Advanced`      | 〰   |
-| 08 Spring AOP                | `Basic`        | 〰   | `Advanced`      | 〰   |
+| 03 Spring -MyBatis 연동      | `Basic`        | ✅   | `Advanced`      | ✅   |
+| 04 Spring 기본 게시판        | `Basic`        | ✅   | `Advanced`      | ✅   |
+| 05 Spring 게시판 + 파일 업로드 | `Basic`        | ✅   | `Advanced`      | ✅   |
+| 06 Rest & 07 OpenAPI        | `Basic`        | ✅   | `Advanced`      | ✅   |
+| 08 Spring AOP                | `Basic`        | ✅   | `Advanced`      | ✅   |
 | 09 Spring Security Form 인증 | `Basic`        | 〰   | `Advanced`      | 〰   |
 | 10 Spring Security JWT 인증  | `Basic`        | 〰   | `Advanced`      | 〰   |
 | 11 Spring Security JWT 인증 2| `Basic`        | 〰   | `Advanced`      | 〰   |
