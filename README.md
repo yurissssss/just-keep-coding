@@ -143,8 +143,8 @@
 | 05 Spring 게시판 + 파일 업로드 | `Basic`        | ✅   | `Advanced`      | ✅   |
 | 06 Rest & 07 OpenAPI        | `Basic`        | ✅   | `Advanced`      | ✅   |
 | 08 Spring AOP                | `Basic`        | ✅   | `Advanced`      | ✅   |
-| 09 Spring Security Form 인증 | `Basic`        | 〰   | `Advanced`      | 〰   |
-| 10 Spring Security JWT 인증  | `Basic`        | 〰   | `Advanced`      | 〰   |
+| 09 Spring Security Form 인증 | `Basic`        | ✅   | `Advanced`      | ✅   |
+| 10 Spring Security JWT 인증  | `Basic`        | ✅   | `Advanced`      | ✅   |
 | 11 Spring Security JWT 인증 2| `Basic`        | 〰   | `Advanced`      | 〰   |
 
 
