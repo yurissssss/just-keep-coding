@@ -130,7 +130,7 @@
 </details>
 
 <details>
-<summary>🐰 07 - Spring Framework를 활용한 애플리케이션 개발</summary>
+<summary>🐰 07 - Spring Framework를 활용한 애플리케이션 개발 ✨ 완료 </summary>
 <br>
 
 | 항목                          | 기본 디렉토리 | 제출 | 심화 디렉토리 | 제출 |
