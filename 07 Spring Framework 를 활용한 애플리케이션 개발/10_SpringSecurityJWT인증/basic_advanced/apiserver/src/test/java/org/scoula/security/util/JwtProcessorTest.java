@@ -29,7 +29,8 @@ class JwtProcessorTest {
 
     @Test
     void getUsername() {
-        String token = "eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJ1c2VyMCIsImlhdCI6MTcyMTgwMjc4NCwiZXhwIjoxNzIxODAzMDg0fQ.nwD4rIroYL6hr_-Esav8KIsHw573MbAiTT-Nz_yYHI8bMcyGZMOEjMt0Own3io_c";
+        String token
+                = "eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJ1c2VyMCIsImlhdCI6MTc1MDgxMTk3MSwiZXhwIjoxNzUwODEyMjcxfQ.V2olsLy9sFAHxg8b_rZQt1HGD3zZkwBnn9uCmUSuKlVREeZHkqLljch2t2B0YBCa";
 
         String username = jwtProcessor.getUsername(token);
         log.info(username);
@@ -39,7 +40,8 @@ class JwtProcessorTest {
     @Test
     void validateToken() {
         // 5분 경과 후 테스트
-        String token = "eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJ1c2VyMCIsImlhdCI6MTcyMTgwMjc4NCwiZXhwIjoxNzIxODAzMDg0fQ.nwD4rIroYL6hr_-Esav8KIsHw573MbAiTT-Nz_yYHI8bMcyGZMOEjMt0Own3io_c";
+        String token
+                = "eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJ1c2VyMCIsImlhdCI6MTc1MDgxMTk3MSwiZXhwIjoxNzUwODEyMjcxfQ.V2olsLy9sFAHxg8b_rZQt1HGD3zZkwBnn9uCmUSuKlVREeZHkqLljch2t2B0YBCa";
 
         boolean isValid = jwtProcessor.validateToken(token);  // 5분 경과 후면 예외 발생
         log.info(isValid);
