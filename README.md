@@ -145,7 +145,7 @@
 | 08 Spring AOP                | `Basic`        | ✅   | `Advanced`      | ✅   |
 | 09 Spring Security Form 인증 | `Basic`        | ✅   | `Advanced`      | ✅   |
 | 10 Spring Security JWT 인증  | `Basic`        | ✅   | `Advanced`      | ✅   |
-| 11 Spring Security JWT 인증 2| `Basic`        | 〰   | `Advanced`      | 〰   |
+| 11 Spring Security JWT 인증 2| `Basic`        | ✅   | `Advanced`      | ✅   |
 
 
 </details>
