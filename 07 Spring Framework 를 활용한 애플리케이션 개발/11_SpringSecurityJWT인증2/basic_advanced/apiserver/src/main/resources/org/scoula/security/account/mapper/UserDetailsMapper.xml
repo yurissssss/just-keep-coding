@@ -24,7 +24,6 @@
          <collection>을 통해 authMap과 연결된 1:N 관계 구성 -->
     <resultMap id="memberMap" type="MemberVO">
         <id property="username" column="username"/>
-        <!-- <id> 자체가 <result>역할 포함 but 명시적으로 매핑해주기 위해 작성  -->
         <result property="username" column="username"/>
         <result property="password" column="password"/>
         <result property="email" column="email"/>
