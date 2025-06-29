@@ -17,6 +17,7 @@
 - [05_NoSQL 기반 MongoDB] MongoDB - 기본/심화 실습
 - [06_Servlet/JSP/JSTL_기반_서버_프로그래밍] Servlet & JSP & JSTL - 기본/심화 실습
 - [07_Spring_Framework를_활용한_애플리케이션_개발] Spring Framework - 기본/심화 실습
+- [08_Spring-Vue_연동] Spring Framework & Vue.js - 기본/심화 실습
 
 ---
 
@@ -150,6 +151,16 @@
 
 </details>
 
+<details>
+<summary>🦊 08 - Spring - Vue 연동 </summary>
+<br>
+
+| 항목                          | 기본 디렉토리 | 제출 | 심화 디렉토리 | 제출 |
+|-------------------------------|----------------|:----:|----------------|:----:|
+| 01 프로젝트 준비               | `Basic`        | ✅   | `Advanced`      | ✅   |
+
+
+</details>
 
 ---
 
