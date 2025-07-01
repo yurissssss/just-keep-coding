@@ -20,7 +20,7 @@ export default {
     },
   ],
 
-  accoutMenus: {
+  accountMenus: {
     // 인증 관련 메뉴 정보
     login: {
       url: '/auth/login',
