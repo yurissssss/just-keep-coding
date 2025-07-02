@@ -34,7 +34,7 @@ export default {
     return data;
   },
 
-  // 상세정보 요청
+  // 삭제 요청
   async delete(no) {
     const { data } = await api.delete(`${BASE_URL}/${no}`);
     console.log('BOARD DELETE: ', data);
@@ -62,6 +62,7 @@ export default {
     console.log('BOARD PUT: ', data);
     return data;
   },
+
   // 첨부파일 삭제
   async deleteAttachment(no) {
     const { data } = await api.delete(`${BASE_URL}/deleteAttachment/${no}`);
