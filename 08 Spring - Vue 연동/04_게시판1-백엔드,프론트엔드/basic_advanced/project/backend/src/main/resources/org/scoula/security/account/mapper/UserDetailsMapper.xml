@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.scoula.security.account.mapper.UserDetailsMapper">
+
+
+    <!-- resultMap: MyBatis에서 SQL 조회 결과를 AuthVO / MemberVO 객체에 매핑하기 위한 설정 -->
+
+    <!-- property: 자바 객체의 필드명 (AuthVO / MemberVO 클래스 내부 필드)
+         column: SQL 결과에서 오는 컬럼명
+         id: PK인 필드(식별자)-->
+
+    <!-- 'AuthVO'라는 클래스에 username, auth 값을 매핑
+         개별 권한 정보를 담은 VO (ex: ROLE_MEMBER, ROLE_ADMIN)
+         username은 외래키(FK)로 연결 -->
+    <resultMap id="authMap" type="AuthVO">
+        <result property="username" column="username"/>
+        <result property="auth" column="auth"/>
+    </resultMap>
+
+    <!-- 'MemberVO'의 필드들과 DB 컬럼을 매핑
+         authList는 List<AuthVO>로 예상 -> 1명의 회원이 여러 권한을 가짐
+         <collection>을 통해 authMap과 연결된 1:N 관계 구성 -->
+    <resultMap id="memberMap" type="MemberVO">
+        <id property="username" column="username"/>
+        <result property="username" column="username"/>
+        <result property="password" column="password"/>
+        <result property="email" column="email"/>
+        <result property="regDate" column="reg_date"/>
+        <result property="updateDate" column="update_date"/>
+
+        <!-- collection: 관계 매핑
+             MemberVO 안에 있는 'List<AuthVO> authList'와 같은 컬렉션 필드를 매핑
+             authMap: 별도로 정의된 resultMap, 'AuthVO'를 위한 매핑 정보
+             '회원 1명 : 권한 여러 개'의 1:N의 관계 표현 -->
+        <collection property="authList" resultMap="authMap"/>
+    </resultMap>
+
+    <!-- 검색하는 sql문 태그로 넣자.!!! -->
+    <!-- 타입이 너무 당연한 값이면 생략 가능 -> 모두 string
+           <select id="get" resultType="MemberVO" parameterType="string"> -->
+    <select id="get" resultMap="memberMap">
+        select m.username, password, email, reg_date, update_date, auth
+        from tbl_member m
+            left outer join tbl_member_auth a
+            on m.username = a.username
+        where m.username = #{username}
+        <!-- 조인해서 가지고 와야 함. 1:n의 관계 -->
+    </select>
+</mapper>
