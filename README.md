@@ -160,6 +160,7 @@
 | 01 프로젝트 준비               | `Basic`        | ✅   | `Advanced`      | ✅   |
 | 02 회원관리1 - 회원가입, 로그인    | `Basic`        | ✅   | `Advanced`      | ✅   |
 | 03 회원관리2 - 정보 변경, 비밀번호 변경 | `Basic`        | ✅   | `Advanced`      | ✅   |
+| 04 게시판1 - 백엔드, 프론트엔드   | `Basic`        | ✅   | `Advanced`      | ✅   |
 
 
 </details>
