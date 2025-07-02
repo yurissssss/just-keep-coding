@@ -149,20 +149,18 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 //                .antMatchers("/api/security/admin").access("hasRole('ROLE_ADMIN')")      // ROLE_ADMIN 이상 접근 허용
 //                .anyRequest().authenticated();  // 나머지는 로그인 된 경우 모두 허용
 
-        http.formLogin()
-                .loginPage("/security/login")
-                .loginProcessingUrl("/security/login")
-                .defaultSuccessUrl("/");
+        // 로그인 페이지 커스텀
+        http.formLogin()  // 로그인 설정 시작
+                .loginPage("/security/login")  // 로그인 페이지 GET URL -> 'security/login' 뷰(jsp) 정의
+                .loginProcessingUrl("/security/login")  // 로그인 POST URL -> login form의 action에 지정
+                .defaultSuccessUrl("/");  // 로그인 성공 시 redirect할 페이지 (첫 페이지)
 
-        http.logout()
-                .logoutUrl("/security/logout")
-                .invalidateHttpSession(true)
-                // 로그아웃설정시작
-                // POST: 로그아웃 호출 url
-                // 세션 invalidate
-                .deleteCookies("remember-me", "JSESSION-ID") // 삭제할 쿠키 목록
-                .logoutSuccessUrl("/security/logout");
-        // GET: 로그아웃 이후이동할페이지
+        http.logout()  // 로그아웃설정시작
+                .logoutUrl("/security/logout")  // POST: 로그아웃 호출 url
+                .invalidateHttpSession(true)  // 세션 invalidate
+                .deleteCookies("remember-me", "JSESSION-ID")  // 삭제할 쿠키 목록
+                .logoutSuccessUrl("/security/logout");  // GET: 로그아웃 이후이동할페이지
+
     }
 
     @Override
