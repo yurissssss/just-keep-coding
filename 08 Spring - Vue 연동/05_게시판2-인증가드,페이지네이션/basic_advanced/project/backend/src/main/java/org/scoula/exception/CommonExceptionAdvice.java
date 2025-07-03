@@ -1,0 +1,37 @@
+package org.scoula.exception;
+
+
+import lombok.extern.log4j.Log4j2;
+import org.springframework.core.annotation.Order;
+import org.springframework.http.HttpStatus;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.servlet.NoHandlerFoundException;
+
+import javax.servlet.http.HttpServletRequest;
+
+@ControllerAdvice
+@Log4j2
+@Order(1)
+public class CommonExceptionAdvice {
+
+    @ExceptionHandler(NoHandlerFoundException.class)
+    public String handle404(NoHandlerFoundException ex) {
+        log.error(ex);
+        return "/resources/index.html";
+    }
+
+    /**
+     * 404에러를 정상응답이 아닌 오류로 인식하기 위한 코드
+     *
+     *  @ExceptionHandler(NoHandlerFoundException.class)
+     * protected ResponseEntity<String> handleIllegalArgumentException(NoSuchElementException e) {
+     *     return ResponseEntity
+     *             .status(HttpStatus.NOT_FOUND)
+     *             .header("Content-Type", "text/plain;charset=UTF-8")
+     *             .body("file not found");
+     * }
+     */
+}
