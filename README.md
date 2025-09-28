@@ -152,7 +152,7 @@
 </details>
 
 <details>
-<summary>🦊 08 - Spring - Vue 연동 </summary>
+<summary>🦊 08 - Spring - Vue 연동 ✨ 완료 </summary>
 <br>
 
 | 항목                          | 기본 디렉토리 | 제출 | 심화 디렉토리 | 제출 |
